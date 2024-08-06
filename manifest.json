@@ -1,0 +1,322 @@
+{
+  "source_base_path": "C:/Users/tdoth/MYGMobileP3DocSet",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      }
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.ButtonEffects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.ButtonEffects.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.Category.CategoryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.Category.CategoryType.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.Category.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.Category.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.CategoryPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.CategoryPanel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.ConfirmButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.ConfirmButton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.FadeMixerGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.FadeMixerGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.GameEndPanel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.GameEndPanel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.GameLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.GameLevel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.GameManager.GameState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.GameManager.GameState.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.GameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.GameManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.GameMenuLogic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.GameMenuLogic.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.GameSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.GameSession.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.GameSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.GameSettings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.InfoBanner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.InfoBanner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.LevelSelectButton.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.LevelSelectButton.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.LivesTracker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.LivesTracker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.MainMenu.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.MainMenu.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.MusicSettingsChanger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.MusicSettingsChanger.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.PlayFabLogin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.PlayFabLogin.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.RepeatingTiledBackground.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.RepeatingTiledBackground.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.SettingsPanelWritePrefs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.SettingsPanelWritePrefs.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.ShuffleExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.ShuffleExtension.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.SoundManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.SoundManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.TitleScreenWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.TitleScreenWord.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.UIManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.UIManager.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.WordToggle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.WordToggle.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.WordToggleAnchor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.WordToggleAnchor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Gameplay.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Gameplay.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
