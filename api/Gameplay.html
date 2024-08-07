@@ -98,94 +98,140 @@ Classes
       <dt><a class="xref" href="Gameplay.ButtonEffects.html">ButtonEffects</a></dt>
       <dd></dd>
     </dl>
+	ButtonEffects is used by a variety of button-like UI elements, allowing them to grow when clicked, or shake to indicate an incorrect player interaction.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.CategoryPanel.html">CategoryPanel</a></dt>
       <dd></dd>
     </dl>
+	The CategoryPanel class is a component script used by CategoryPanel prefabs, but currently has no use. Future uses could include special visual effects when a category is found (creating sparkles linked to the category's color, for instance).
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.ConfirmButton.html">ConfirmButton</a></dt>
       <dd></dd>
     </dl>
+	Calls <i>GameManager.i.currentSession.EvaluateGuess();</i> when clicked.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.FadeMixerGroup.html">FadeMixerGroup</a></dt>
       <dd></dd>
     </dl>
+	Creates a functional audio fade-in/fade-out effect for the game's AudioMixer. Original code by johnleonardfrench.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.GameEndPanel.html">GameEndPanel</a></dt>
       <dd></dd>
     </dl>
+	Shows success or failure text when the game ends. Includes a "back to main menu" function called by a button child of the associated GameObject.
+	<br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.GameManager.html">GameManager</a></dt>
       <dd></dd>
     </dl>
+	The GameManager singleton covers transition between game states, handling events such as changes in music when the game switches to the Start state, or creating and holding a GameSession object.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.GameMenuLogic.html">GameMenuLogic</a></dt>
       <dd></dd>
     </dl>
+	Logic for the menu UI used in the Gameplay scene. Allows quitting the game and restarting the puzzle scene.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.GameSession.html">GameSession</a></dt>
       <dd></dd>
     </dl>
+	A GameSession is an ongoing game of CMC. The class's constructor takes in information regarding which words and categories are in play. This class is responsible for handling game logic: evaluating the player's word guesses, rewarding or punishing the player when a guess is correct or incorrect, keeping track of previously-attempted guesses, calling the hint UI when the player is only missing one word or repeating a previous guess, and finally calling the victory/defeat UI when conditions are met.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.GameSettings.html">GameSettings</a></dt>
       <dd></dd>
     </dl>
+	The GameSettings class is unfinished and cannot be accessed in-game. This class is intended to provide UI functionality for the game's "Settings" panel when implemented.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.InfoBanner.html">InfoBanner</a></dt>
       <dd></dd>
     </dl>
+	The InfoBanner class is used by the InfoBanner GameObjects which show themselves when the player makes a nearly-correct guess or repeats a previously-attempted guess.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.LevelSelectButton.html">LevelSelectButton</a></dt>
       <dd></dd>
     </dl>
+	Used by the puzzle selection buttons in the main menu scene.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.LivesTracker.html">LivesTracker</a></dt>
       <dd></dd>
     </dl>
+	Can be called to update the UI GameObject which tracks the player's remaining attempts.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.MainMenu.html">MainMenu</a></dt>
       <dd></dd>
     </dl>
+	MainMenu is responsible for transitions between sub-menus (the start screen and the puzzle list, for instance). It parses retrieved JSON level data and transforms it into a list of GameLevel structs, which inform the button grid that makes up the puzzle list sub-menu.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.MusicSettingsChanger.html">MusicSettingsChanger</a></dt>
       <dd></dd>
     </dl>
+	The MusicSettingsChanger class cannot be accessed in-game. This class is intended to update the game's AudioMixer values when GameSettings is implemented.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.PlayFabLogin.html">PlayFabLogin</a></dt>
       <dd></dd>
     </dl>
+	When the game enters its main menu, this classes attempts to establish a connection to the PlayFab server which holds the game's level data. If successful, this level data is downloaded in JSON format, which is then sent to the MainMenu class in order to be parsed and processed.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.RepeatingTiledBackground.html">RepeatingTiledBackground</a></dt>
       <dd></dd>
     </dl>
+	Tweens an Image in a seamless repeating loop. Used by the Backgrounds prefab.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.SettingsPanelWritePrefs.html">SettingsPanelWritePrefs</a></dt>
       <dd></dd>
     </dl>
+	The SettingsPanelWritePrefs class cannot be accessed in-game. This class is intended to write to a file to save the player's chosen settings after GameSettings is implemented.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.ShuffleExtension.html">ShuffleExtension</a></dt>
       <dd></dd>
     </dl>
+	A static class that can be used to shuffle a list like a deck of cards. Used by UIManager to shuffle the order of words on the screen at the beginning of a game.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.SoundManager.html">SoundManager</a></dt>
       <dd></dd>
     </dl>
+	A singleton which plays or loops AudioClips and calls FadeMixerGroup for smooth fade-ins/fade-outs.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.TitleScreenWord.html">TitleScreenWord</a></dt>
       <dd></dd>
     </dl>
+	Governs the animation of title screen logo words.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.UIManager.html">UIManager</a></dt>
       <dd></dd>
     </dl>
+	UIManager handles the main gameplay scene's UI logic. It obtains the current puzzle information from GameManager's ongoing GameSession and arranges the puzzle's various words into a grid. Various methods are responsible for calling the coroutines used to animate the game's UI, such as GridAnimation. Logic also exists to check the player's interaction with the UI, for instance allowing the submission of a guess attempt only if the attempts contains no more and no less than 4 words. Methods to enable the game's victory and defeat UI panel also exist for GameSession to call when the conditions are met.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.WordToggle.html">WordToggle</a></dt>
       <dd></dd>
     </dl>
+	Used by the WordToggle GameObjects which are the player's main mode of interaction with the core gameplay. This class handles the toggle's logic and animation.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.WordToggleAnchor.html">WordToggleAnchor</a></dt>
       <dd></dd>
     </dl>
+	A dummy class used in place of a tag system in order to find each WordToggleAnchor GameObject and link it to its associated WordToggle.
+	<br><br>
     <h3 id="structs">
 Structs
 </h3>
@@ -193,10 +239,14 @@ Structs
       <dt><a class="xref" href="Gameplay.Category.html">Category</a></dt>
       <dd></dd>
     </dl>
+	Keeps information relative to a category: name, color, words included.
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.GameLevel.html">GameLevel</a></dt>
       <dd></dd>
     </dl>
+	Keeps information relative to a puzzle: unique ID and categories used.
+	<br><br>
     <h3 id="enums">
 Enums
 </h3>
@@ -204,11 +254,13 @@ Enums
       <dt><a class="xref" href="Gameplay.Category.CategoryType.html">Category.CategoryType</a></dt>
       <dd></dd>
     </dl>
+	Can be Green, Yellow, Blue or Purple (symbolizing increasing difficulty).
+	<br><br>
     <dl class="jumplist">
       <dt><a class="xref" href="Gameplay.GameManager.GameState.html">GameManager.GameState</a></dt>
       <dd></dd>
     </dl>
-
+	Used to keep track of the game's current state.
 
 </article>
 
